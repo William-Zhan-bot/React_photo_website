@@ -1,0 +1,2 @@
+# React_photo_website
+以前用React寫相片的網站，主要集中在api的調用以及用route的練習
