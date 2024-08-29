@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // input可以直接用字體去放大
+  input,
+  button {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1.5px solid rgb(43, 0, 43);
+    margin-top: 1.25rem;
+  }
+
+  button {
+    color: white;
+    background-color: rgb(178, 32, 204);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(73, 0, 73);
+    border-radius: 5%;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+}
+// 直接這行串接css 導入一次即可
+// 必須用這樣的引入才可以連接libs
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";

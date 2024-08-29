@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div.pictures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  .picture {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    width: 400px;
+    padding: 0.75rem;
+    p {
+      font-size: 0.6rem;
+      text-align: left;
+      a {
+        color: black;
+      }
+    }
+    .ImageContainer {
+      overflow: hidden;
+      height: 50vh;
+      width: 50vh;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.5s ease;
+        &:hover {
+          transform: scale(1.25);
+        }
+      }
+    }
+  }
+}
